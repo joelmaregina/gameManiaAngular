@@ -1,0 +1,1582 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 25px;
+    background-color: #2F323A;
+    color: white;
+}
+
+.header{
+    margin-top: 10px;
+    height: 180px;
+}
+
+.logo a img {
+    width: 300px;
+    height: 145px;
+}
+
+.container-grid{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.container-grid-smaller {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.posicionamento-header .campo-busca{
+    background-color: #396A94;
+    border-radius: 15px;
+    width: 300px;
+    height: 45px;
+    border: solid 3px #3F88C5;
+}
+
+input {
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+input::placeholder{
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+
+.posicionamento-header{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posicionamento-header-direito{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrinho {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 100;
+    background-color: #9C2A39;
+    padding: 1px 25px;
+    border-radius: 15px;
+    transition: 400ms;
+}
+
+.carrinho:hover{
+    background-color: #D72638;
+    padding: 3px 30px;
+    transition: 400ms;
+}
+
+.carrinho:active{
+    background-color: #3F88C5;
+    padding: 3px 30px;
+    transition: 400ms;
+}
+
+.carrinho a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.carrinho img {
+    width: 25px;
+    height: 25px;
+}
+
+.carrinho h3 {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    margin-top: 4%;
+}
+
+.login{ 
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 100;  
+    text-transform: uppercase;  
+    background-color: #9C2A39;
+    padding: 1px 25px;
+    border-radius: 15px;
+    transition: 400ms;
+}
+
+.login:hover{
+    background-color: #D72638;
+    padding: 3px 30px;
+    transition: 400ms;
+}
+
+.login:active{
+    background-color: #3F88C5;
+    padding: 3px 30px;
+    transition: 400ms;
+}
+
+.login a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.login img {
+    width: 25px;
+    height: 25px;
+}
+
+.login h3 {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    margin-top: 4%;
+}
+
+.menu {
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.menu a {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+.menu a:hover {
+    color: #3F88C5;
+    font-size: 24px;
+    transition: 400ms;
+    font-weight: 300;
+    font-family: 'Saira', sans-serif;
+}
+
+.barras {
+    background-color: #9C2A39;
+    display: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.menu-barras img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+main {
+    font-family: 'Saira', sans-serif;
+}
+
+.banner{
+    height: 300px;
+    /* background-image: url(../img/banner.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Saira', sans-serif;
+}
+
+.banner2{
+    height: 300px;
+    /* background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/blackFriday.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Saira', sans-serif;
+    display: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.banner3{
+    height: 300px;
+    /* background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)100%), url(../img/pexels-photo-2047905.jpeg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Saira', sans-serif;
+    display: none;
+}
+
+#carrossel img{
+    display: none;
+    width: 100%;
+    height: 18em;
+}
+
+.banner-ativo {
+    display: flex;
+}
+
+.itens-banner {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens-banner-meio {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-banner-esquedo h1{
+    width: 300px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto-banner-esquedo a{
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    transition: 400ms;
+}
+
+.texto-banner-esquedo a:hover{
+    text-decoration: none;
+    color: #D72638;
+    transition: 400ms;
+}
+
+.texto-banner-direito h1{
+    width: 300px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#produto-nao-encontrado{
+    height: 300px;
+    /* background-image: url(../img/banner.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+}
+
+.cards {
+    margin: 40px 0 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.card-informativo {
+    padding: 3px 14px;
+    background-color: #9C2A39;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;    
+    align-items: center;
+}
+
+.card-informativo:hover{
+    background-color: #D72638;
+    transition: 400ms;
+}
+
+.cards .card-informativo img {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    
+}
+
+.cards #caminhao {
+    width: 43.37px;
+    height: 40.27px;
+    margin-right: 10px;
+}
+
+.card-informativo h2 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+
+.titulo-secao {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    transition: 400ms;
+}
+
+.titulo-secao p {
+    background: #9C2A39;
+    padding: 4px 60px;
+    border: 2px solid #D72638;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.titulo-secao p:hover{
+    background-color: #D72638;
+    transition: 400ms;
+}
+
+.titulo-secao p:active{
+    background-color: #3F88C5;
+    border-color: #3F88C5;
+    transition: 400ms;
+}
+
+.mais-vendidos a{
+    text-decoration: none;
+    color: white;
+}
+
+.produtos-promocao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.promocao a{
+    text-decoration: none;
+    color: white; 
+}
+
+.promocao a h4{
+    font-size: 18px;
+    transition: 400ms;
+}
+
+.promocao a h4:hover{
+    font-size: 20px;
+    transition: 400ms;
+}
+
+.produtos-mais-vendidos-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.produtos-mais-vendidos-bottom {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto{
+    text-align: center;
+    transition: 400ms;
+}
+
+.price-red{
+    color: red;
+}
+
+.price-green{
+    color: green;
+}
+
+.produto a {
+    text-decoration: none;
+    color: white;
+}
+
+.nome-produto {
+    margin-top: 10px;
+    margin-bottom: 7px;
+
+}
+
+.nome-produto {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+}
+
+.produtos-promocao .produto img {
+    width: 230px;
+    height: 129px;
+    opacity: 0.7;
+    transition: 400ms;
+}
+
+.produtos-promocao .produto img:hover {
+    width: 240px;
+    height: 139px;
+    opacity: 1.0;
+    transition: 400ms;
+}
+
+.mais-vendidos a h4{
+    font-size: 18px;
+    transition: 400ms;
+}
+
+.mais-vendidos a h4:hover{
+    font-size: 20px;
+    transition: 400ms;
+}
+
+.produtos-mais-vendidos-top .produto img {
+    width: 230px;
+    height: 129px;
+    opacity: 0.7;
+    transition: 400ms;
+}
+
+.produtos-mais-vendidos-top .produto img:hover {
+    width: 240px;
+    height: 139px;
+    opacity: 1.0;
+    transition: 400ms;
+}
+
+.produtos-mais-vendidos-bottom .produto img {
+    width: 230px;
+    height: 129px;
+    opacity: 0.7;
+    transition: 400ms;
+}
+
+.produtos-mais-vendidos-bottom .produto img:hover {
+    width: 240px;
+    height: 139px;
+    opacity: 1.0;
+    transition: 400ms;
+}
+
+.preco-produto {
+    font-family: 'Rightheous', sans-serif;
+    margin-bottom: 7px;
+}
+
+.footer{
+    transition: 400ms;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.footer a:hover {
+    color: #D72638;
+    transition: 400ms;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.footer-azul {
+    background-color: #154B79;
+    padding: 15px;
+}
+
+.logo-footer img {
+    width: 250px;
+    height: 120px;
+}
+
+.footer-superior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-bloco-footer {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.blocofooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 18px;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+
+.blocofooter .campo-email {
+    margin-top: 10px;
+    background-color: #A62F49;
+    border-radius: 12px;
+    height: 38px;
+    border: none;
+}
+
+.blocofooter button{
+    background-color: #3F88C5;
+    font-family: 'Saira', sans-serif;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 400ms;
+}
+
+.blocofooter button:active{
+    background-color: #D72638;
+    transition: 400ms;
+}
+
+.blocofooter a {
+    color: white;
+    text-decoration: none;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+.blocofooter p {
+    font-family: "Saira Condensed", sans-serif;
+}
+
+.blocofooter .icone-contato {
+    height: 15px;
+    width: 15px;
+}
+
+.meios-de-contato a{
+    font-family: "Saira Condensed", sans-serif;
+    display: flex;
+    align-items: center;
+    
+}
+
+.meios-de-contato img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.contatos{
+    display: flex;
+}
+
+.footer-inferior{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-inferior img{
+    width: 45px;
+    height:45px;
+    margin-left: 15px;
+    margin-top: 20px;
+    opacity: 0.70;
+    transition: 750ms;
+}
+
+.footer-inferior img:hover{
+    opacity: 1.00;
+    transition: 750ms;
+    width: 50px;
+    height:50px;
+}
+
+.footer-inferior-sociais{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#botao-fale-conosco {
+    display: none;
+}
+
+.invisivel{
+	display: none;
+}
+
+/************************* Responsividade - Desktop menores *************************************************************************************/
+
+@media screen and (max-width: 1200px) {
+    .container-grid {
+        width: 90%;
+    }
+
+    .container-grid-smaller {
+        width: 80%;
+    }
+
+    .logo a img {
+        width: 210px;
+        height: 110px;
+    }
+
+    .posicionamento-header {
+        justify-content: space-evenly;
+    }
+
+    .posicionamento-header .campo-busca{
+        background-color: #396A94;
+        border-radius: 10px;
+        width: 250px;
+        height: 35px;
+        border: solid 2px #3F88C5;
+    }
+
+        
+    input::placeholder{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .carrinho {
+        padding: 0px 10px;
+        border-radius: 10px;
+        transition: 400ms;
+    }
+
+    .carrinho:hover{
+        background-color: #D72638;
+        padding: 1px 12px;
+        transition: 400ms;
+    }
+       
+    .carrinho:active{
+        background-color: #3F88C5;
+        padding: 1px 12px;
+        transition: 400ms;
+    }  
+    
+    .carrinho img {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .carrinho h3 {
+        font-size: 1.3rem;
+        margin-top: 4%;
+    }
+    
+    .login{ 
+        font-size: 20px;
+        padding: 0px 8px;
+        border-radius: 10px;
+        transition: 400ms;
+    }
+    
+    .login:hover{
+        background-color: #D72638;
+        padding: 0px 8px;
+        transition: 400ms;
+    }
+    
+    .login:active{
+        background-color: #3F88C5;
+        padding: 1px 12px;
+        transition: 400ms;
+    }
+   
+    .login img {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .login h3 {
+        font-size: 1.3rem;    
+    } 
+      
+    .menu {
+        width: 35rem;
+    }
+    
+    .menu a {
+        font-size: 1.2rem;
+    }
+    
+    .menu a:hover {
+        font-size: 1.2rem;
+    }
+
+    .itens-banner{
+        width: 72%;
+    }
+
+    .banner{
+        height: 210px;
+    }
+
+    .banner2{
+        height: 210px;
+        background-position: left;
+    }
+
+    .banner3{
+        height: 210px;
+    }
+    
+    .texto-banner-esquedo h1{
+        width: 12rem;
+        font-size: 1.2rem;
+    }
+      
+    .texto-banner-direito h1{
+        width: 12rem;
+        font-size: 1.2rem;
+    }
+  
+    .card-informativo {
+        padding: 1px 5px;
+        background-color: #9C2A39;
+        border-radius: 10px;
+    }
+       
+    .cards .card-informativo img {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-right: 5px;
+        
+    }
+    
+    .cards #caminhao {
+        width: 1.6rem;
+        height: 1.6rem;
+        margin-right: 5px;
+    }
+    
+    .card-informativo h2 {
+        font-size: 1.2rem;
+        padding-top: 6px;
+    }
+   
+    .titulo-secao p {
+        padding: 2px 40px;
+        border-radius: 10px;
+        font-size: 1.2rem;
+    }       
+   
+    .produtos-promocao {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }    
+  
+    .promocao a h4{
+        font-size: 0.9rem;
+    }
+    
+    .promocao a h4:hover{
+        font-size: 1.0rem;
+    }       
+       
+    .produtos-promocao .produto img {
+        width: 180px;
+        height: 95px;
+    }
+    
+    .produtos-promocao .produto img:hover {
+        width: 190px;
+        height: 105px;
+    }
+    
+    .mais-vendidos a h4{
+        font-size: 0.9rem;
+    }
+    
+    .mais-vendidos a h4:hover{
+        font-size: 1.0rem;
+
+    }    
+    .produtos-mais-vendidos-top .produto img {
+        width: 180px;
+        height: 95px;
+    }
+    
+    .produtos-mais-vendidos-top .produto img:hover {
+        width: 190px;
+        height: 105px;
+    }
+    
+    .produtos-mais-vendidos-bottom .produto img {
+        width: 180px;
+        height: 95px;
+    }
+    
+    .produtos-mais-vendidos-bottom .produto img:hover {
+        width: 190px;
+        height: 105px;
+    } 
+
+    .footer a{
+        font-size: 1.0rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .footer p {
+        margin-bottom: 2.0rem;
+    }
+    
+    .footer a:hover {
+        font-size: 1.3rem;
+    } 
+    
+    .footer-superior{
+        justify-content: space-evenly;
+    }
+
+    .logo-footer img {
+        width: 185px;
+        height: 95px;
+    }
+
+    .blocofooter{
+        margin: 5px;
+    }
+
+    .blocofooter .campo-email {
+        margin-top: 10px;
+        background-color: #A62F49;
+        border-radius: 8px;
+        height: 1.8rem;
+        border: none;
+    } 
+    
+    .footer-inferior-sociais{
+        margin-left: 10px;
+    }
+   
+    .footer-inferior img{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    } 
+}
+
+/************************* Responsividade - Tablet *************************************************************************************/
+
+@media screen and (max-width: 805px) {
+
+    body {
+        padding-top: 0;
+    }
+
+    .container-grid {
+        width: 95%;
+    }
+
+    .container-grid-smaller {
+        width: 85%;
+    }
+
+    .header {
+        height: 150px;
+    }
+
+    .logo a img {
+        width: 170px;
+        height: 75px;
+    }
+
+    .posicionamento-header-direito {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .posicionamento-header .campo-busca{
+        background-color: #396A94;
+        border-radius: 5px;
+        width: 120px;
+        height: 30px;
+        border: solid 2px #3F88C5;
+        margin-right: 10px;
+    }
+        
+    input::placeholder{
+        font-size: 14px;
+     }
+
+    .carrinho {
+        padding: 0 4px;
+        border-radius: 5px;
+        margin-right: 10px;
+     }
+
+    .carrinho:hover{
+        background-color: #D72638;
+        padding: 0 5px;
+    }
+       
+    .carrinho:active{
+        background-color: #3F88C5;
+        padding: 0 5px;
+    }  
+    
+    .carrinho img {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+    
+    .carrinho h3 {
+        font-size: 1.0rem;
+        padding-top: 2px;
+    }
+    
+    .login{ 
+        padding: 0px 4px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    
+    .login:hover{
+        background-color: #D72638;
+        padding: 0px 5px;
+    }
+    
+    .login:active{
+        background-color: #3F88C5;
+        padding: 0px 5px;
+    }
+   
+    .login img {
+        width: 0.9rem;
+        height: 0.9rem;
+        padding-top: 2px;
+    }
+    
+    .login h3 {
+        font-size: 1.0rem;    
+    } 
+      
+    .menu {
+        width: 35rem;
+        display: none;
+    }
+    
+    .barras{
+        display: flex;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        border-radius: 7px;
+        width: 100px;
+        height: 350px;
+        padding: 20px 10px;
+        position: absolute;
+        top: 62px;
+        right: 0;
+    }
+
+    .menu-escondido{
+        display: none;
+    }
+    
+    .menu-ativo{
+        display: flex;
+    }
+
+    .posicionamento-header{
+        position: relative;
+    }
+
+    .menu a {
+        font-size: 0.9rem;
+    }
+    
+    .menu a:hover {
+        font-size: 0.9rem;
+    }
+  
+    .itens-banner{
+        width: 80%;
+    }
+
+    .banner{
+        /* background-image: linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40)100%), url(../img/banner.png); */
+        height: 210px;
+    }    
+    
+    .texto-banner-esquedo h1{
+        width: 9rem;
+        font-size: 1.0rem;
+    }
+      
+    .texto-banner-direito h1{
+        width: 9rem;
+        font-size:1.0rem;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        margin: 15px 0 30px 0;
+    }
+  
+    .card-informativo {
+        padding: 1px 5px;
+        border-radius: 5px;
+        margin: 10px
+    }
+       
+    .cards .card-informativo img {
+        width: 1.0rem;
+        height: 1.0rem;
+        margin-right: 3px;
+    }
+    
+    .cards #caminhao{
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-right: 3px;
+    }
+    
+    .card-informativo h2 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+    }
+
+    .titulo-secao{
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+   
+    .titulo-secao p {
+        padding: 2px 40px;
+        border-radius: 10px;
+        font-size: 1.1rem;
+    }       
+   
+    .produtos-promocao {
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .produto {
+        margin-bottom: 40px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+  
+    .promocao a h4{
+        font-size: 0.8rem;
+    }
+    
+    .promocao a h4:hover{
+        font-size: 0.9rem;
+    }       
+       
+    .produtos-promocao .produto img {
+        width: 170px;
+        height: 85px;
+    }
+    
+    .produtos-promocao .produto img:hover {
+        width: 180px;
+        height: 95px;
+    }
+          
+    .produtos-promocao {
+        margin-bottom: 0px;
+    }
+
+    .produtos-mais-vendidos-top{
+        justify-content: space-evenly;
+        margin-bottom: 0px;
+    }
+
+    .produtos-mais-vendidos-bottom{
+        justify-content: space-evenly;
+    }
+
+    .mais-vendidos a h4{
+        font-size: 0.8rem;
+    }
+    
+    .mais-vendidos a h4:hover{
+        font-size: 0.9rem;
+    }   
+
+    .produtos-mais-vendidos-top .produto img {
+        width: 170px;
+        height: 85px;
+    }
+    
+    .produtos-mais-vendidos-top .produto img:hover {
+        width: 180px;
+        height: 95px;
+    }
+    
+    .produtos-mais-vendidos-bottom .produto img {
+        width: 170px;
+        height: 85px;
+    }
+    
+    .produtos-mais-vendidos-bottom .produto img:hover {
+        width: 180px;
+        height: 95px;
+    } 
+
+    .footer a{
+        font-size: 0.9rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .footer p {
+        margin-bottom: 2.0rem;
+        font-size: 1.1rem;
+    }
+    
+    .footer a:hover {
+        font-size: 1.0rem;
+    }
+
+    .blocofooter{
+        margin: 0 7px;
+    }    
+
+    .logo-footer img {
+        width: 175px;
+        height: 85px;
+    }
+
+    .meios-de-contato {
+        font-size: 0.9rem;
+    }
+
+    .meios-de-contato p{
+        font-size: 0.9rem;
+    }
+    
+    .blocofooter .campo-email {
+        margin-top: 10px;
+        border-radius: 5px;
+        height: 1.8rem;
+        border: none;
+    } 
+    
+    .footer-inferior {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 100px;
+    }
+
+    .footer-inferior p {
+        font-size: 0.9rem;
+    }
+   
+    .footer-inferior img{
+        width: 40px;
+        height: 40px;
+        margin-left: 30px;
+        margin-bottom: 35px;
+    } 
+}
+
+/************************* Responsividade - Mobile *************************************************************************************/
+
+
+@media screen and (max-width: 534px ) {
+
+    body {
+        padding-top: 0;
+    }
+
+    .container-grid {
+        width: 95%;
+    }
+
+    .container-grid-smaller {
+        width: 85%;
+    }
+
+    .header {
+        height: 150px;
+    }
+
+    .logo a img {
+        width: 128px;
+        height: 72px;
+    }
+
+    .posicionamento-header-direito {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .posicionamento-header .campo-busca{
+        background-color: #396A94;
+        border-radius: 5px;
+        width: 120px;
+        height: 25px;
+        border: solid 2px #3F88C5;
+        margin-right: 10px;
+        margin-bottom: 22px;
+    }
+        
+    input::placeholder{
+        font-size: 14px;
+     }
+
+    .carrinho {
+        padding: 0 3px;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-bottom: 22px;
+     }
+
+    .carrinho:hover{
+        background-color: #D72638;
+        padding: 0 4px;
+    }
+       
+    .carrinho:active{
+        background-color: #3F88C5;
+        padding: 0 4px;
+    }  
+    
+    .carrinho img {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    
+    .carrinho h3 {
+        font-size: 0.8rem;
+        padding-top: 2px;
+    }
+    
+    .login{ 
+        padding: 0px 3px;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-bottom: 22px;
+    }
+    
+    .login:hover{
+        background-color: #D72638;
+        padding: 0px 5px;
+    }
+    
+    .login:active{
+        background-color: #3F88C5;
+        padding: 0px 4px;
+    }
+   
+    .login img {
+        width: 0.9rem;
+        height: 0.9rem;
+        padding-top: 2px;
+    }
+    
+    .login h3 {
+        margin-top: 5px;
+        font-size: 1.0rem;    
+    } 
+         
+    .barras{
+        display: flex;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        border-radius: 7px;
+        width: 100px;
+        height: 350px;
+        padding: 20px 10px;
+        position: absolute;
+        top: 90px;
+        right: 0;
+    }
+
+    .posicionamento-header{
+        position: relative;
+    }
+
+    .menu a {
+        font-size: 0.9rem;
+    }
+    
+    .menu a:hover {
+        font-size: 0.9rem;
+    }
+  
+    .itens-banner{
+        width: 85%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .itens-banner h1{
+        margin-bottom: 0;
+    }
+    
+    .banner{
+        /* background-image: linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40)100%), url(../img/banner.png); */
+        height: 170px;
+    }
+
+    .banner2{
+        /* background-image: linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)100%), url(../img/blackFriday.jpg); */
+        height: 170px;
+    }
+
+    .banner3{
+        height: 170px;
+    }
+    
+    .texto-banner-esquedo h1{
+        width: 100%;
+        font-size: 0.85rem;
+        line-height: 1.5rem;
+    }
+      
+    .texto-banner-direito h1{
+        width: 100%;
+        font-size:0.85rem;
+        line-height: 1.5rem;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        margin: 15px 0 30px 0;
+    }
+  
+    .card-informativo {
+        padding: 1px 5px;
+        border-radius: 5px;
+        margin: 10px
+    }
+       
+    .cards .card-informativo img {
+        width: 0.9rem;
+        height: 0.9rem;
+        margin-right: 3px;
+    }
+    
+    .cards .card-informativo #caminhao{
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-right: 3px;
+    }
+    
+    .card-informativo h2 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+    }
+
+    .titulo-secao{
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+   
+    .titulo-secao p {
+        padding: 5px 10px;
+        border-radius: 7px;
+        font-size:1.0rem;
+    }       
+   
+    .produtos-promocao {
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .produto {
+        margin-bottom: 40px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+  
+    .promocao a h4{
+        font-size: 0.8rem;
+    }
+    
+    .promocao a h4:hover{
+        font-size: 0.9rem;
+    }       
+       
+    .produtos-promocao .produto img {
+        width: 170px;
+        height: 85px;
+    }
+    
+    .produtos-promocao .produto img:hover {
+        width: 180px;
+        height: 95px;
+    }
+          
+    .produtos-promocao {
+        margin-bottom: 0px;
+    }
+
+    .produtos-mais-vendidos-top{
+        justify-content: space-evenly;
+        margin-bottom: 0px;
+    }
+
+    .produtos-mais-vendidos-bottom{
+        justify-content: space-evenly;
+    }
+
+    .mais-vendidos a h4{
+        font-size: 0.8rem;
+    }
+    
+    .mais-vendidos a h4:hover{
+        font-size: 0.9rem;
+    }   
+
+    .produtos-mais-vendidos-top .produto img {
+        width: 170px;
+        height: 85px;
+    }
+    
+    .produtos-mais-vendidos-top .produto img:hover {
+        width: 180px;
+        height: 95px;
+    }
+    
+    .produtos-mais-vendidos-bottom .produto img {
+        width: 170px;
+        height: 85px;
+    }
+    
+    .produtos-mais-vendidos-bottom .produto img:hover {
+        width: 180px;
+        height: 95px;
+    } 
+
+    .footer a{
+        font-size: 0.9rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .footer p {
+        margin-bottom: 0.6rem;
+        font-size: 1.1rem;
+    }
+    
+    .footer a:hover {
+        font-size: 1.0rem;
+    }
+
+    .blocofooter{
+        margin: 15px 7px;
+    }
+    
+    .titulo-bloco-footer{
+        margin-bottom: 10px;
+    }
+
+    .logo-footer img {
+        width: 175px;
+        height: 85px;
+    }
+
+    .meios-de-contato {
+        font-size: 0.9rem;
+    }
+
+    .meios-de-contato p{
+        font-size: 0.9rem;
+    }
+
+    .blocofooter{
+        flex-direction: column;
+    }
+    
+    .blocofooter .campo-email {
+        margin-top: 5px;
+        border-radius: 5px;
+        height: 1.8rem;
+        border: none;
+    } 
+
+    .meios-de-contato{
+        display: none;
+    }
+
+    #botao-fale-conosco{
+        display: flex;
+    }
+
+    #botao-fale-conosco p{
+        background-color: #D72638;
+        text-transform: uppercase;
+        padding: 2px 50px;
+        border-radius: 10px;
+        transition: 400ms;
+    }
+
+    #botao-fale-conosco p:hover{
+        background-color: #3F88C5;
+        text-transform: uppercase;
+        padding: 3px 55px;
+        border-radius: 10px;
+        transition: 400ms;
+    }
+    
+    .footer-inferior {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 70px;
+    }
+
+    .footer-inferior p {
+        font-size: 1.0rem;
+        margin: 10px
+    }
+
+    .footer-inferior-sociais{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .redes-sociais{
+        display: flex;
+        justify-content: center;
+    }
+   
+    .footer-inferior img{
+        width: 40px;
+        height: 40px;
+        margin: 20px 25px;
+    } 
+}

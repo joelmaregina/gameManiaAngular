@@ -1,0 +1,75 @@
+   
+    <main class="banner-login d-flex flex-column justify-content-evenly">
+        <h1> <strong> <span id="tituloDaPagina">Login</span></strong></h1>
+    </main>
+
+    <section class="container d-flex justify-content-center login-subscribe">
+        <div id="caixa-login">
+            <h2 class=" d-flex justify-content-center chamadaFormulario">Faça login na sua conta com: </h2>
+            <div class="botao-sociais d-flex justify-content-evenly flex-wrap">
+                <div class="twitter">
+                    <a href="#"><h5><i class="fab fa-twitter"></i>  <strong>Twitter</strong></h5></a>
+                </div>
+                <div class="facebook">
+                    <a href="#"><h4><i class="fab fa-facebook-f"></i>  <strong>Facebook</strong></h4></a>
+                </div>
+                <div class="google">
+                    <a href=""> <h4><i class="fab fa-google"></i>  <strong>Google</strong></h4></a>
+                </div>
+            </div>
+            <hr> <strong class="d-flex justify-content-center"> Ou </strong><hr>
+            <div id="formulario">
+                <form class="formulario-login" action="">
+                    <div class = "d-flex flex-column" >
+                        <label for="email" class="d-flex justify-content-center"> <h4>Email:</h4> </label>
+                        <input id="email" type="email" placeholder="seuemail@email.com" name="email" required>
+                        <!-- [ngModel]= "userModel.email" -->
+                    </div>
+                    <div class = "d-flex flex-column dados">
+                        <label for="password" class="d-flex justify-content-center"> <h4>Senha:</h4> </label>
+                        <input id="password" type="password"  placeholder="Digite sua senha" name="senha" required>                
+                    </div>
+                    <div class="d-flex justify-content-center botao-login-cadastro">
+                        <button type="submit" onclick="validaFormularioLogin()"> Enviar </button>
+                    </div>
+                </form>
+                <form class="formulario-inscricao" action="">
+                    <div>
+                        <label for="name" class="d-flex justify-content-center"> <h4> Nome completo:</h4> </label>
+                        <input id="name" type="text" placeholder="Digite o seu nome completo" name="email" required>
+                    </div>
+                    <div class = "d-flex flex-column" >
+                        <label for="email" class="d-flex justify-content-center"> <h4>Email:</h4> </label>
+                        <input id="email" type="email" placeholder="seuemail@email.com" name="senha" required>
+                    </div>
+                    <div class = "d-flex flex-column dados">
+                        <label for="password1" class="d-flex justify-content-center"> <h4> Digite uma senha:</h4> </label>
+                        <input id="password1" type="password"  placeholder="Digite sua senha" name="senha1" required>                
+                    </div>
+                    <div class = "d-flex flex-column dados">
+                        <label for="password-repeat" class="d-flex justify-content-center"> <h4> Repita sua senha:</h4> </label>
+                        <input id="password-repeat" type="password"  placeholder="Repita sua senha" name="senha2" required>                
+                    </div>
+                    <div class = "d-flex flex-column dados">
+                        <label for="tel" class="d-flex justify-content-center"> <h4> Digite seu celular: </h4> </label>
+                        <input id="tel" type="tel"  placeholder="(xx) xxxx-xxxx" name="telefone" required>                
+                    </div>
+                    <div class="d-flex justify-content-center botao-login-cadastro">
+                        <button type="submit" onclick="validaFormularioInscricao(), validaSenha()"> Enviar </button>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div class="esqueceu-senha">
+                <a href="#"> <h5 class="d-flex justify-content-center"> Esqueceu sua senha?</h5></a>
+            </div>
+            <div class="muda-para-inscricao">
+                <h5 class="d-flex justify-content-center muda-para-inscricao"> Não tem uma conta? <button href="#" class="botao-inscricao-login" id="inscricao"> Inscreva-se</button></h5> 
+            </div>
+            <div class="muda-para-login">
+                <h5 class="d-flex justify-content-center muda-para-login"> Já possui uma conta? <button href="#" class="botao-inscricao-login" id="voltar-para-login"> Entrar </button></h5>  
+            </div>
+
+
+        </div>
+    </section>

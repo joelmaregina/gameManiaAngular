@@ -1,0 +1,51 @@
+<main class="banner-paginas">
+    <div class="banner-computadores d-flex flex-column justify-content-evenly">
+        <h1> <strong>Computadores</strong></h1>
+    </div>
+</main>
+
+<section class="container filtro" onload = "renderizarProdutos()">
+    <nav class= "d-flex filtro-nav">
+        <label>Ordenar por: </label>
+        <select>
+            <option>Relevância</option>
+            <option>Mais vendidos</option>
+            <option>Preço: Menor para maior</option>
+            <option>Preço: Maior para o menor</option>
+            <option>Melhor avaliação</option>
+        </select>
+    </nav>
+</section>
+
+<section class="container d-flex ">
+    <div class="container loja_lateral_esquerda col-lg-2 col-md-3">
+        <strong class="titulo_categoria">Categorias:</strong> 
+        <div class="categorias d-flex flex-column"> <strong class="categoria">Estado: </strong>
+            <a href="#" class="item_categoria"> Novos </a>
+            <a href="#" class="item_categoria"> Seminovos </a>
+            <a href="#" class="item_categoria"> Usados </a>
+        </div>                
+        <div class="preco"> <strong class="categoria">Preço: </strong><br>
+            Min : <input type="number" value="0"> <br> Máx: <input type="number" value="5000">
+            <input type="submit" value="OK">
+        </div>
+        <div class="marcas d-flex flex-column"> <strong class="categoria"> Marcas: </strong>
+            <a href="#" class="item_categoria"> HP </a>
+            <a href="#" class="item_categoria"> LG </a>
+            <a href="#" class="item_categoria"> AOC </a>
+            <a href="#" class="item_categoria"> Dell </a>
+            <a href="#" class="item_categoria"> Sony </a>
+            <a href="#" class="item_categoria"> Apple </a>
+            <a href="#" class="item_categoria"> Positivo </a>
+            <a href="#" class="item_categoria"> Demais marcas</a>
+
+        </div>
+    </div>
+
+    <div class="container loja_lateral_direita col-lg-10 col-md-9">
+        <div id="espaco-produtos" class="d-flex flex-wrap justify-content-evenly .align-content-center pagina-produtos">
+            <!-- Renderização dos produtos a partir do arquivo de javaScript computadores.js -->
+        </div>
+    </div>
+</section>
+

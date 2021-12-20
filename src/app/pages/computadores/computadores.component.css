@@ -1,0 +1,30 @@
+.banner-computadores{
+    height: 225px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(src/assets/img/computador.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Saira', sans-serif;
+}
+
+.banner-computadores h1{
+    text-align: center;
+}
+
+.imagem_compra{
+    width: 210px;
+    height: 120px;
+    opacity: 0.7;
+    transition: 400ms;
+}
+
+.imagem_compra:hover {
+    width: 240px;
+    height: 139px;
+    opacity: 1.0;
+    transition: 400ms;
+}
+
+a:hover {
+    color: white;
+}

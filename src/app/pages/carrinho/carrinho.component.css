@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrinho_html{
+    padding-top: 25px;
+    background-color: #2F323A;
+    color: white;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+.banner-carrinho{
+    height: 225px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(src/assets/img/cart.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Saira', sans-serif;
+}
+
+.banner-carrinho h1{
+    text-align: center;
+}
+
+.carrinho_html{
+    align-items: center;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 3rem auto 2rem auto;
+    box-shadow: 0 10px 25px rgba(255,255,255,0.19), 0 6px 15px rgba(255,255,255,0.23);
+    border-radius: 15px;
+}
+
+.carrinho_html h2 .fa-shopping-cart{
+    font-size: 2.0em;
+    color: #D72638;
+}
+
+.carrinho_html a{
+    color: #e13a4b;
+}
+
+.frase-meio-carrinho{
+    margin: 2rem auto 2rem auto;
+}
+
+@media screen and (max-width: 805px) {
+    .carrinho_html{
+        width: 65vw;
+    }
+
+}
+
+@media screen and (max-width: 535px) {
+    .carrinho_html{
+        width: 80vw;
+    }
+}
+
+

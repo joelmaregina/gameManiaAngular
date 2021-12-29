@@ -27,8 +27,8 @@ import { ConstrucaoComponent } from './pages/construcao/construcao.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-    //FormsModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

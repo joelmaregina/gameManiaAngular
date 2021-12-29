@@ -17,6 +17,7 @@ $(document).ready(function(){
 
     // Alternando MENU com toggleClass do jQuery:
     $("#barras").click(function(){
+        event.preventDefault()
         $("#menu").toggleClass("menu-ativo")
 
                 // if($("#menu").hasClass("menu-ativo")){

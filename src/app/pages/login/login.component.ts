@@ -15,4 +15,8 @@ export class LoginComponent implements OnInit {
 
 userModel = new User("", "")
 
+onSubmit() {
+  console.log(this.userModel)
+}
+
 }

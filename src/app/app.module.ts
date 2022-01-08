@@ -12,6 +12,8 @@ import { FooterComponent } from './pages/footer/footer.component';
 import { ComputadoresComponent } from './pages/computadores/computadores.component';
 import { ConsolesComponent } from './pages/consoles/consoles.component';
 import { ConstrucaoComponent } from './pages/construcao/construcao.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ConstrucaoComponent } from './pages/construcao/construcao.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

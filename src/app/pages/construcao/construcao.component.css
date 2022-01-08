@@ -5,13 +5,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: 'Saira', sans-serif;
-    display: flex;
-    align-items: center;
+    font-family: 'Saira', sans-serif !important;
+    display: flex !important;
+    align-items: center !important;
     margin-bottom: 2rem;
 }
 
-.gradiente{
-    height: 5rem;
-    background: linear-gradient(#2F323A, rgb(13, 46, 74, 1) 100%);
-}
+.texto-construcao h{}

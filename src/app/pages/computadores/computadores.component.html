@@ -44,7 +44,19 @@
 
     <div class="container loja_lateral_direita col-lg-10 col-md-9">
         <div id="espaco-produtos" class="d-flex flex-wrap justify-content-evenly .align-content-center pagina-produtos">
-            <!-- Renderização dos produtos a partir do arquivo de javaScript computadores.js -->
+        <div *ngFor = "let produto of listaProdutos" class="produto-loja produto">
+                <a href="#">
+                    <img src="{{ produto.imagem }}" alt="{{ produto.alt }}" class="imagem_compra">
+                    <p class="produto_pagina nome-produto text-center"> {{ produto.nomeProduto }}</p>
+                    <p class="preco_pagina preco-produto text-center"> <strong class="price-green"> {{ produto.preco }} </strong> em até <br> {{ produto.parcelas }} x sem juros</p>
+                </a>
+                <section>
+                    <div class="example-button-row">
+                      <button mat-flat-button color="warn">Comprar</button>
+                    </div>
+                </section>
+            </div>
+
         </div>
     </div>
 </section>

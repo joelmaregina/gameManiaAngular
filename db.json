@@ -1,0 +1,12 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nomeProduto": "Computador All In One Dell"
+    },
+    {
+      "nomeProduto": "Tablet Infomais Tech",
+      "id": 2
+    }
+  ]
+}

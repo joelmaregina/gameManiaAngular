@@ -22,16 +22,17 @@
                 <form #userForm= "ngForm" (ngSubmit)= "onSubmit()" class="formulario-login">
                     <div class = "d-flex flex-column" >
                         <label for="email" class="d-flex justify-content-center"> <h4>Email:</h4> </label>
-                        <input id="email" type="email" placeholder="seuemail@email.com" name="email"  [(ngModel)]= "userModel.email" required>
+                        <input id="email" type="email" placeholder="seuemail@email.com" name="email"  [(ngModel)]= "loginModel.email" required>
                     </div>
                     <div class = "d-flex flex-column dados">
                         <label for="password" class="d-flex justify-content-center"> <h4>Senha:</h4> </label>
-                        <input id="password" type="password"  placeholder="Digite sua senha" name="senha" [(ngModel)]= "userModel.senha" required>                
+                        <input id="password" type="password"  placeholder="Digite sua senha" name="senha" [(ngModel)]= "loginModel.password" required>                
                     </div>
                     <div class="d-flex justify-content-center botao-login-cadastro">
                         <button type="submit" onclick="validaFormularioLogin()"> Enviar </button>
                     </div>
                 </form>
+                <p style="color: red" *ngIf = " mensagem != '' " > {{ mensagem }} </p>
                 <form class="formulario-inscricao" action="">
                     <div>
                         <label for="name" class="d-flex justify-content-center"> <h4> Nome completo:</h4> </label>

@@ -1,4 +1,13 @@
 {
+  "users": [
+    {
+      "email": "joelma@email.com",
+      "password": "$2a$10$eDhxfJACnxdBAAfsU33rP.2n4wSNHi5kdLDT84lSvkxiTnSlZtiGW",
+      "nomeCompleto": "Joelma Silva",
+      "telefone": "7198888999",
+      "id": 1
+    }
+  ],
   "produtos": [
     {
       "imagem": "assets/img/Pc-All-In-One-Black.jpeg",

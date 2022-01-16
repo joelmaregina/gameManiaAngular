@@ -12,10 +12,10 @@ export class ComputadoresComponent implements OnInit {
 
   listaProdutos = [] as Produto[];
 
-  produtoForm = {
-    titulo: "Computador extra",
-    descricao: "Descricao da noticia Extra"
-  }
+  // produtoForm = {
+  //   titulo: "Computador extra",
+  //   descricao: "Descricao da noticia Extra"
+  // }
 
   constructor(private produtoService : ProdutosService) { }
 
@@ -30,10 +30,10 @@ export class ComputadoresComponent implements OnInit {
     })
   }
 
-  salvarProduto(){
-    this.produtoService.postProduto(this.produtoForm).subscribe(() => {
-      this.carregarProdutos();
-    })
-  }
+  // salvarProduto(){
+  //   this.produtoService.postProduto(this.produtoForm).subscribe(() => {
+  //     this.carregarProdutos();
+  //   })
+  // }
 
 }

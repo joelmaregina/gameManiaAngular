@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http'
-
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -13,8 +15,8 @@ import { FooterComponent } from './pages/footer/footer.component';
 import { ComputadoresComponent } from './pages/computadores/computadores.component';
 import { ConsolesComponent } from './pages/consoles/consoles.component';
 import { ConstrucaoComponent } from './pages/construcao/construcao.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material/button';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import {MatButtonModule} from '@angular/material/button';
     FooterComponent,
     ComputadoresComponent,
     ConsolesComponent,
-    ConstrucaoComponent
+    ConstrucaoComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,8 @@ import {MatButtonModule} from '@angular/material/button';
     FormsModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

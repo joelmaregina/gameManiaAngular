@@ -6,6 +6,7 @@ import { ConsolesComponent } from './pages/consoles/consoles.component';
 import { ConstrucaoComponent } from './pages/construcao/construcao.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: "login", component: LoginComponent},
   { path: "consoles", component: ConsolesComponent},
   { path: "computadores", component: ComputadoresComponent},
-  { path: "construcao", component: ConstrucaoComponent}
+  { path: "construcao", component: ConstrucaoComponent},
+  { path: "404", component: NotFoundComponent }
 ];
 
 @NgModule({

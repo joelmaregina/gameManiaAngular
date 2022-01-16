@@ -20,11 +20,11 @@
             <hr> <br> <strong class="d-flex justify-content-center ou"> <h4>Ou</h4> </strong><hr>
             <div id="formulario">
                 <form #userForm= "ngForm" (ngSubmit)= "onSubmit()" class="formulario-login">
-                    <div class = "d-flex flex-column" >
+                    <div class = "d-flex flex-column container input" >
                         <label for="email" class="d-flex justify-content-center"> <h4>Email:</h4> </label>
                         <input id="email" type="email" placeholder="seuemail@email.com" name="email"  [(ngModel)]= "loginModel.email" required>
                     </div>
-                    <div class = "d-flex flex-column dados">
+                    <div class = "d-flex flex-column dados container input">
                         <label for="password" class="d-flex justify-content-center"> <h4>Senha:</h4> </label>
                         <input id="password" type="password"  placeholder="Digite sua senha" name="senha" [(ngModel)]= "loginModel.password" required>                
                     </div>
@@ -32,7 +32,9 @@
                         <button type="submit" onclick="validaFormularioLogin()"> Enviar </button>
                     </div>
                 </form>
-                <p style="color: red" *ngIf = " mensagem != '' " > {{ mensagem }} </p>
+                <div class= "container box_mensagem"> 
+                    <p class = "mensagensLogin d-flex flex-column container" *ngIf = " mensagem != '' " > {{ mensagem }} </p>
+                </div>
                 <form class="formulario-inscricao" action="">
                     <div>
                         <label for="name" class="d-flex justify-content-center"> <h4> Nome completo:</h4> </label>

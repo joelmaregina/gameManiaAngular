@@ -77,6 +77,10 @@ section a{
     margin-top: 1rem;
 }
 
+.input {
+    align-items: center;
+}
+
 #formulario div input{
     width: 40vw;
     height: fit-content;
@@ -117,6 +121,15 @@ section a{
 
 .muda-para-login{
     display: none;
+}
+
+.mensagensLogin{
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-sizing: content-box;
 }
 
 

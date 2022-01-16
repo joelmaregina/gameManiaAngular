@@ -256,7 +256,7 @@ main {
 
 .texto-banner-esquedo h1{
     width: 300px;
-    font-size: 24px;
+    font-size: 24px!important;
     line-height: 40px;
     font-weight: bold;
     text-align: center;
@@ -276,7 +276,7 @@ main {
 
 .texto-banner-direito h1{
     width: 300px;
-    font-size: 24px;
+    font-size: 24px!important;
     line-height: 40px;
     font-weight: bold;
     text-align: center;
@@ -779,12 +779,12 @@ h1, h2, h3, h4 , h5 {
     
     .texto-banner-esquedo h1{
         width: 12rem;
-        font-size: 1.2rem;
+        font-size: 1.2rem!important;
     }
       
     .texto-banner-direito h1{
         width: 12rem;
-        font-size: 1.2rem;
+        font-size: 1.2rem!important;
     }
   
     .card-informativo {
@@ -1063,12 +1063,12 @@ h1, h2, h3, h4 , h5 {
     
     .texto-banner-esquedo h1{
         width: 9rem;
-        font-size: 1.0rem;
+        font-size: 1.0rem !important;
     }
       
     .texto-banner-direito h1{
         width: 9rem;
-        font-size:1.0rem;
+        font-size:1.0rem !important;
     }
 
     .cards {

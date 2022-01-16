@@ -6,6 +6,48 @@
       "nomeCompleto": "Joelma Silva",
       "telefone": "7198888999",
       "id": 1
+    },
+    {
+      "email": "maria@email.com",
+      "password": "$2a$10$mARKmywsV6va7uS3MWdvHu9gxmq5MsQ/pTTMhlA7.XwgdGI0JouHO",
+      "nomeCompleto": "Maria Santos",
+      "telefone": "71999998888",
+      "id": 2
+    },
+    {
+      "email": "lucas@email.com",
+      "password": "$2a$10$U8CzBjly7WmMxmzeRK6P4uPIlddx0YEjbEydniJsE6XZG6AwY6jvi",
+      "nomeCompleto": "Lucas Lima",
+      "telefone": "71989898989",
+      "id": 3
+    },
+    {
+      "email": "priscila@email.com",
+      "password": "$2a$10$RY5xxj3vE61usOzObHtCo.v4NXIT3GKMnHHp9LTaSw2XJzyWEszo2",
+      "nomeCompleto": "Priscila Vieira",
+      "telefone": "71989892222",
+      "id": 4
+    },
+    {
+      "email": "paulo@email.com",
+      "password": "$2a$10$NVs//xFfWiT1yn1eAoWIj.PuTtzJCltarBF/97dbpZ9PNld54CjkW",
+      "nomeCompleto": "Paulo Pereira",
+      "telefone": "71989892233",
+      "id": 5
+    },
+    {
+      "email": "kaik@email.com",
+      "password": "$2a$10$bCdz3T7S5ex6k/SaWnC8hO8A/6Ee0AYkBXL3A9/8x7/UZka55LaFa",
+      "nomeCompleto": "Kaik Regis",
+      "telefone": "71989895555",
+      "id": 6
+    },
+    {
+      "email": "antonio@email.com",
+      "password": "$2a$10$C9.vKvX4exgOSC5Lx9/DReKzQm8YjixLiP98tTsz8CmLm3MpNTZOO",
+      "nomeCompleto": "Antonio Souza",
+      "telefone": "71989896766",
+      "id": 7
     }
   ],
   "produtos": [

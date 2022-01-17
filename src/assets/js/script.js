@@ -24,8 +24,21 @@ $(document).ready(function(){
         //     $("#menu").removeClass("menu-ativo")            
         // } else {
         //     $("#menu").addClass("menu-ativo")
-        // }
+        // }    
     })
+
+     // Muda a cor da mensagem de login quando o login foi feito com sucesso:
+        var mensagemLogin = $("#box_mensagem").innerText
+
+        console.log("mensagemLogin")
+
+        function alteraCorLogin(){
+            if (this.mensagemLogin ==  "Login realizado com sucesso!"){
+                console.log("Sucesso!")
+                this.mensagemLogin.css("color", "green");
+            }
+        }
+        function alteraCorLogin()
 })
 
 //Para implementar um carrinho
@@ -143,3 +156,6 @@ busca.addEventListener("input", function(){
     }
  
 })
+
+
+

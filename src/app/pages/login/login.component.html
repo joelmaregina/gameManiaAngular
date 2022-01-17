@@ -32,8 +32,11 @@
                         <button type="submit" onclick="validaFormularioLogin()"> Enviar </button>
                     </div>
                 </form>
-                <div class= "container box_mensagem"> 
+                <div class= "box_mensagem"> 
                     <p class = "mensagensLogin d-flex flex-column container" *ngIf = " mensagem != '' " > {{ mensagem }} </p>
+                    <p class = "mensagensLogin d-flex flex-column container" *ngIf = " mensagem != '' " > {{ mensagemDadosInvalidos }} </p>
+                    <p class = "mensagensLoginSucesso d-flex flex-column container" *ngIf = " mensagemLoginFeito != '' " > {{ mensagemLoginFeito }} </p>
+
                 </div>
                 <form class="formulario-inscricao" action="">
                     <div>

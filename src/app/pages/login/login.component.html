@@ -29,13 +29,13 @@
                         <input id="password" type="password"  placeholder="Digite sua senha" name="senha" [(ngModel)]= "loginModel.password" required>                
                     </div>
                     <div class="d-flex justify-content-center botao-login-cadastro">
-                        <button type="submit" onclick="validaFormularioLogin()"> Enviar </button>
+                        <button id="sendlogin" type="submit" onclick="validaFormularioLogin()"> Enviar </button>
                     </div>
                 </form>
                 <div class= "box_mensagem"> 
-                    <p class = "mensagensLogin d-flex flex-column container" *ngIf = " mensagem != '' " > {{ mensagem }} </p>
-                    <p class = "mensagensLogin d-flex flex-column container" *ngIf = " mensagem != '' " > {{ mensagemDadosInvalidos }} </p>
-                    <p class = "mensagensLoginSucesso d-flex flex-column container" *ngIf = " mensagemLoginFeito != '' " > {{ mensagemLoginFeito }} </p>
+                    <p id="mensagem" class = "mensagensLogin d-flex flex-column container" *ngIf = " mensagem != '' " > {{ mensagem }} </p>
+                    <p id="mensagemdadosinvalidos" class = "mensagensLogin d-flex flex-column container" *ngIf = " mensagem != '' " > {{ mensagemDadosInvalidos }} </p>
+                    <p id="mensagemloginfeito" class = "mensagensLoginSucesso d-flex flex-column container" *ngIf = " mensagemLoginFeito != '' " > {{ mensagemLoginFeito }} </p>
 
                 </div>
                 <form class="formulario-inscricao" action="">

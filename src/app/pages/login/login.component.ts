@@ -47,7 +47,7 @@ onSubmit() {
 
   }, (error) => {
     if (error.error == "Incorrect password"){
-      this.mensagem == "Senha Incorreta";
+      this.mensagem = "Senha Incorreta";
     } else if (error.error == "Cannot find user") {
       this.mensagem = "Usuário não está cadastrado";
     } else if (error.error == "Password is too short" ) {
